@@ -28,3 +28,7 @@
 <!-- skripte galerije -->
 <script type="text/javascript" src="js/jquery.slicebox.js"></script>
 <script type="text/javascript" src="js/modernizr.custom.46884.js"></script>
+<!-- ANGULAR JS -->
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/angular-parkovi.js"></script>
+

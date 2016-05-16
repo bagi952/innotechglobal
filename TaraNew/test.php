@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html ng-app="modul">
 <head>
     <meta charset="utf-8">
     <script src="modernizr.js"></script>
@@ -13,6 +13,7 @@
 </head>
 
 <body>
+
 <div class="fluid-container">
     <div class="col-md-9" id="containment">
 
@@ -56,6 +57,9 @@
             <div class="page page11">
                 <?php include "znamenitosti_content.php"; ?>
             </div>
+            <div class="page page12">
+                <?php include "park_and_recreation_content.php"; ?>
+            </div>
         </div>
 
 
@@ -77,7 +81,7 @@
                 <li><img src="images/flags/english_flag.gif" alt="flag" class="language-icon img-responsive"/></li>
                 <li><img src="images/flags/serbian_flag.gif" alt="flag" class="language-icon img-responsive"/></li>
                 <li><img src="images/flags/turkish_flag.png" alt="flag" class="language-icon img-responsive"/></li>
-                <li><img src="images/flags/Flag_of_Greece.png" alt="flag" class="language-icon img-responsive"/></li>
+                <li><img src="images/flags/greece_flag.png" alt="flag" class="language-icon img-responsive"/></li>
 
 
             </ul>
@@ -91,6 +95,7 @@
 
 <!--  jquery offline-->
 <script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+
 <!-- jquery online
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 -->
@@ -109,6 +114,8 @@ include "weather-script.php"
             $( ".btn-book" ).click(function() {
                 $('.form-tnx').fadeIn(3300).removeClass('hidden');
             });
+
+
 </script>
 
 </body>

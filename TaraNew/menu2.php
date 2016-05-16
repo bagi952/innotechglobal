@@ -15,8 +15,8 @@
         </li>
         <li class="item2"><a href="#" data-target="10" class="nav-btn nav-page10">U OKOLINI</a>
             <ul>
-                <li class="" ><a href="#">Parkovi i rekreacija </a></li>
-                <li class="" ><a data-target="11" class="nav-btn nav-page11">Znamenitosti</a></li>
+                <li class="" ><a href="#" data-target="12" class="nav-btn nav-page12">Parkovi i rekreacija </a></li>
+                <li class="" ><a href="#" data-target="11" class="nav-btn nav-page11">Znamenitosti</a></li>
             </ul>
         </li>
 
